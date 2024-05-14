@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                                             &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T                   &none                                                                                             &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A         &kp S     &kp D      &kp F   &kp G            &kp LEFT_ALT  &kp CAPS              &kp LALT                              &kp LGUI  &kp RCTRL     &kp LEFT_ALT   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z         &kp X     &kp C      &kp V   &kp B                                    &kp C_BRIGHTNESS_DEC                  &kp C_BRIGHTNESS_INC                               &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT                        &kp BSPC     &mo 4         &kp RIGHT_ALT                         &kp RIGHT_ALT  &kp ENTER  &mt LCTRL SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp EQUAL     &kp N1        &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                                           &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+   &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T                  &tog 5                                                                                           &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
+   &kp ESC      &kp A         &kp S     &kp D      &kp F   &kp G            &kp LEFT_ALT  &kp LCTRL              &kp LALT                              &kp LGUI  &kp RCTRL  &kp LEFT_ALT   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT      &kp Z         &kp X     &kp C      &kp V   &kp B                                     &kp C_BRIGHTNESS_DEC                  &kp C_BRIGHTNESS_INC                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT                        &kp BSPC      &mo 4         &kp RIGHT_ALT                         &kp RIGHT_ALT  &kp ENTER     &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -85,6 +85,26 @@
  &trans  &kp N0  &kp N4  &kp N5        &kp N6       &kp MINUS            &trans  &trans  &trans                  &trans             &trans        &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans   &trans  &trans  &trans
  &trans  &trans  &kp N1  &kp N2        &kp N3  &kp UNDERSCORE                            &trans                  &trans                                         &kp LEFT_BRACE        &kp RIGHT_BRACE  &trans   &trans  &trans  &trans
  &trans  &trans  &trans  &trans        &trans                            &trans   &none  &trans                  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP                                       &trans  &trans   &trans  &trans  &trans
+            >;
+        };
+
+        layer_mac_bullshit {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans   &mo 6                   &mo 6  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_mac2sane {
+            bindings = <
+ &trans         &trans         &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans  &trans  &trans  &trans         &trans  &trans
+ &trans  &macro_mac_ae         &trans  &trans  &trans  &trans            &trans                                                  &trans  &macro_mac_ue  &trans  &trans  &trans  &macro_mac_oe  &trans
+ &trans         &trans  &macro_mac_sz  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans         &trans  &trans  &trans  &trans         &trans  &trans
+ &trans         &trans         &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans  &trans  &trans  &trans         &trans  &trans
+ &trans         &trans         &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans  &trans  &trans         &trans  &trans
             >;
         };
 
