@@ -2,7 +2,7 @@ macro_mac_sz: macro_mac_sz{
 compatible = "zmk,behavior-macro";
 label = "macro_mac_sz";
 #binding-cells = <0>;
-bindings = <&kp LWIN>, <&kp S>;
+bindings = <&kp RIGHT_ALT>, <&kp S>;
 };
 macro_mac_ue: macro_mac_ue{
 compatible = "zmk,behavior-macro";
