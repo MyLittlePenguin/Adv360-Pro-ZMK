@@ -100,11 +100,11 @@
 
         layer_mac2sane {
             bindings = <
- &trans         &trans         &trans  &trans  &trans  &trans            &trans                                                  &trans         &trans  &trans  &trans  &trans         &trans  &trans
- &trans  &macro_mac_ae         &trans  &trans  &trans  &trans            &trans                                                  &trans  &macro_mac_ue  &trans  &trans  &trans  &macro_mac_oe  &trans
- &trans         &trans  &macro_mac_sz  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans         &trans  &trans  &trans  &trans         &trans  &trans
- &trans         &trans         &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans  &trans  &trans  &trans         &trans  &trans
- &trans         &trans         &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans  &trans  &trans         &trans  &trans
+ &trans         &trans         &trans  &trans  &trans  &trans            &trans                                                     &trans         &trans  &trans  &trans  &trans         &trans  &trans
+ &trans  &macro_mac_ae         &trans  &trans  &trans  &trans            &trans                                                     &trans  &macro_mac_ue  &trans  &trans  &trans  &macro_mac_oe  &trans
+ &trans         &trans  &macro_mac_sz  &trans  &trans  &trans            &trans  &trans  &trans                  &trans     &trans  &trans         &trans  &trans  &trans  &trans         &trans  &trans
+ &trans         &trans         &trans  &trans  &trans  &trans                            &trans                  &trans                            &trans  &trans  &trans  &trans         &trans  &trans
+ &trans         &trans         &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp ENTER  &trans                 &trans  &trans  &trans         &trans  &trans
             >;
         };
 
